@@ -23,10 +23,6 @@ public class defaultCountingOutRhymer {
 		return total;
 	}
 
-	public void setTotal(int total) {
-		this.total = total;
-	}
-
 	private int total = EMPTY_RHYMER_INDICATOR;
 
 	public void countIn(int in) {
