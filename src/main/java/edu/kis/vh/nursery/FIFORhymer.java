@@ -18,4 +18,8 @@ public class FIFORhymer extends defaultCountingOutRhymer {
 
 		return ret;
 	}
+
+	public defaultCountingOutRhymer getTmp() {
+		return tmp;
+	}
 }

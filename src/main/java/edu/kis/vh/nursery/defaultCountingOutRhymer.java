@@ -7,6 +7,18 @@ public class defaultCountingOutRhymer {
 	
 	private final int[] numbers = new int[MAX_SIZE];
 
+	public static int getMaxSize() {
+		return MAX_SIZE;
+	}
+
+	public static int getEmptyRhymerIndicator() {
+		return EMPTY_RHYMER_INDICATOR;
+	}
+
+	public static int getReturnValueIfEmpty() {
+		return RETURN_VALUE_IF_EMPTY;
+	}
+
 	public int getTotal() {
 		return total;
 	}
@@ -42,4 +54,7 @@ public class defaultCountingOutRhymer {
 		return numbers[total--];
 	}
 
+	public int[] getNumbers() {
+		return numbers;
+	}
 }
