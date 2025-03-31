@@ -7,6 +7,14 @@ public class defaultCountingOutRhymer {
 	
 	private final int[] numbers = new int[MAX_SIZE];
 
+	public int getTotal() {
+		return total;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
+	}
+
 	private int total = EMPTY_RHYMER_INDICATOR;
 
 	public void countIn(int in) {
